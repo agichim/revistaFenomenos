@@ -1,3 +1,5 @@
+/* BODY */
+
 body {
   font-family: "Prodigy Sans";
   font-size: 1.4rem;
@@ -16,6 +18,11 @@ code {
   font-size: 1.2rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -31,9 +38,9 @@ hr {
   margin-bottom: 50px;
 }
 
-/* POST TITLE */
+/* COVER SECTION */
 
-/* Only cover picture */
+/* Cover image */
 .coverPic {
   width: 100%;
   height: 98.3vh;
@@ -63,39 +70,84 @@ hr {
 
 } */
 
-.boton {
+.hyperlinkTitle {
+  color: white;
+  background: transparent;
+  border-radius: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.hyperlinkTitle:hover {
+  color: white;
+  background: black;
+  border-radius: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+/* COVER SECTION */
+
+/* BUTTON INDEX */
+
+.button {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.nextPost {
+.buttonNextPost {
   margin-top: 50px;
 }
 
-.linkFlecha {
+.indexLink {
   border: 2px solid;
   border-radius: 6px;
   padding: 8px 10px 10px 10px;
   cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.linkFlecha:hover {
+.indexLink:hover {
   background: hsl(0deg 0% 0% / 0.1);
-  transform: translateY(2px);
+  /* transform: translateY(2px); */
 }
 
-.etiquetaAlign {
+/* TAGS */
+
+.tagAlign {
   display: table-cell !important;
   vertical-align: middle !important;
 }
 
-/* Bottom of post */
+.hyperlinkTag {
+  color: black;
+  background: transparent;
+  border-radius: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
 
-.nextPost {
+.hyperlinkTag:hover {
+  color: white;
+  background: black;
+  border-radius: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+/* POSTS */
+
+.buttonNextPost {
   text-align: right;
+}
+
+.linkNextPost {
+  border: 2px solid;
+  border-radius: 6px;
+  padding: 8px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.linkNextPost:hover {
+  background: hsl(0deg 0% 0% / 0.1);
+  /* transform: translateY(2px); */
 }
