@@ -104,13 +104,15 @@ hr {
 
 /* BUTTON INDEX */
 
+.homeAndTitle {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .button {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-.buttonNextPost {
-  margin-top: 50px;
 }
 
 .indexLink {
@@ -123,6 +125,11 @@ hr {
 .indexLink:hover {
   background: hsl(0deg 0% 0% / 0.1);
   /* transform: translateY(2px); */
+}
+
+.revistaTitle {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 /*---------------------------------------------*/
@@ -242,10 +249,6 @@ footer :target {
   justify-content: space-between;
 }
 
-.buttonNextPost {
-  text-align: right;
-}
-
 /* .buttonPreviousPost {
   text-align: left;
 } */
@@ -262,6 +265,11 @@ footer :target {
   /* transform: translateY(2px); */
 }
 
+.buttonNextPost {
+  text-align: right;
+  margin-top: 50px;
+}
+
 .linkNextPost {
   border: 2px solid;
   border-radius: 6px;
@@ -275,4 +283,3 @@ footer :target {
 }
 
 /*---------------------------------------------*/
-
